@@ -12,3 +12,6 @@
 </tr>
 
 </table>
+
+[![CI](https://github.com/khanyakupelo01/api/actions/workflows/ci.yml/badge.svg)](https://github.com/khanyakupelo01/api/actions/workflows/ci.yml)
+
