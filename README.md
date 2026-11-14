@@ -3,6 +3,7 @@
 
 I'm a senior software engineer focused on backend systems: API design, data modelling and services that stay correct under real-world load.
 I care about type safety, auditable data and clean interfaces, and about shipping work other engineers enjoy maintaining.
+Based in South Africa · Open to senior and staff engineering roles.
 
 <p><a href="./assets/khanya-profile.pdf">Download this profile as a PDF</a></p>
 
@@ -17,11 +18,6 @@ I care about type safety, auditable data and clean interfaces, and about shippin
 
 <p>
   <a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/">ubuntu api live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://ubuntu.sibulelekupelo.workers.dev/">ubuntu ui live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/api">ubuntu api on GitHub</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/ubuntu">ubuntu ui on GitHub</a>
-</p>
-
-<p>
-  <a href="https://github.com/khanyakupelo01/api/actions/workflows/ci.yml"><img src="https://github.com/khanyakupelo01/api/actions/workflows/ci.yml/badge.svg" alt="ubuntu api CI status" /></a>
-  <a href="https://github.com/khanyakupelo01/ubuntu/actions/workflows/ci-deploy.yml"><img src="https://github.com/khanyakupelo01/ubuntu/actions/workflows/ci-deploy.yml/badge.svg" alt="ubuntu ui CI status" /></a>
 </p>
 
 <br />
@@ -41,4 +37,8 @@ I care about type safety, auditable data and clean interfaces, and about shippin
 
 <br /><br />
 
-<p align="center"><sub>Based in South Africa · Open to senior and staff engineering roles&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://stackoverflow.com/users/11373257/khanya">Stack Overflow</a></sub></p>
+<p align="center">
+  <a href="https://github.com/khanyakupelo01/api/actions/workflows/ci.yml"><img src="https://github.com/khanyakupelo01/api/actions/workflows/ci.yml/badge.svg" alt="ubuntu api CI status" /></a>
+  <a href="https://github.com/khanyakupelo01/ubuntu/actions/workflows/ci-deploy.yml"><img src="https://github.com/khanyakupelo01/ubuntu/actions/workflows/ci-deploy.yml/badge.svg" alt="ubuntu ui CI status" /></a>
+  <a href="https://stackoverflow.com/users/11373257/khanya"><sub>Stack Overflow</sub></a>
+</p>
