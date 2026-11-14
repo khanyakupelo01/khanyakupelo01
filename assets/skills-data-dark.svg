@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="282" viewBox="0 0 600 282" role="img" aria-label="Data skills from api and ubuntu: PostgreSQL, Neon, Drizzle ORM, Schema migrations">
+<defs><filter id="s" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.0"/></filter></defs>
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Segoe UI",Helvetica,Arial,sans-serif; }
+  .title { font-size: 26px; font-weight: 600; letter-spacing: -0.4px; fill: #F5F5F7; }
+  .h { font-size: 21px; font-weight: 600; letter-spacing: -0.3px; fill: #F5F5F7; }
+  .sub { font-size: 17px; fill: #A1A1A6; }
+  .eyebrow { font-size: 13px; font-weight: 600; letter-spacing: 1.6px; fill: #A1A1A6; }
+  .pill { font-size: 14px; font-weight: 500; fill: #F5F5F7; }
+</style>
+<rect x="12" y="8" width="576" height="258" rx="22" fill="#1C1C1E" stroke="#2C2C2E" filter="url(#s)"/>
+<text class="eyebrow" x="44" y="58">SKILLS</text><text class="title" x="44" y="96">Data</text><circle cx="49" cy="126" r="4" fill="#2997FF"/><text class="sub" x="60" y="132" style="font-size:15px">api</text><circle cx="112.2" cy="126" r="4" fill="#2997FF"/><text class="sub" x="123.2" y="132" style="font-size:15px">ubuntu</text><rect x="44" y="160" width="106" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="97" y="181" text-anchor="middle">PostgreSQL</text><rect x="160" y="160" width="59" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="190" y="181" text-anchor="middle">Neon</text><rect x="230" y="160" width="114" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="287" y="181" text-anchor="middle">Drizzle ORM</text><rect x="354" y="160" width="161" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="435" y="181" text-anchor="middle">Schema migrations</text>
+</svg>

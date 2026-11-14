@@ -9,6 +9,19 @@ CONFIG = {
          "desc": ["Typed REST API with role-based access,", "Zod validation and OpenAPI docs."],
          "tags": ["Hono", "Drizzle", "Neon Postgres"]},
     ],
+    # Skills. EVIDENCE RULE (constitution III): a badge may be listed only if it is used in the
+    # source of the `api` or `ubuntu` project, and it must appear in the audit table of
+    # specs/001-resume-skills-section/research.md. One badge, one category.
+    "skills": [
+        {"slug": "languages-frontend", "title": "Languages & Frontend", "projects": ["api", "ubuntu"],
+         "badges": ["TypeScript", "React", "TanStack Start", "Tailwind CSS", "shadcn/ui", "Vite"]},
+        {"slug": "backend", "title": "Backend", "projects": ["api", "ubuntu"],
+         "badges": ["Node.js", "Hono", "OpenAPI", "Swagger UI", "Zod", "openapi-fetch"]},
+        {"slug": "data", "title": "Data", "projects": ["api", "ubuntu"],
+         "badges": ["PostgreSQL", "Neon", "Drizzle ORM", "Schema migrations"]},
+        {"slug": "tooling-delivery", "title": "Tooling & Delivery", "projects": ["api", "ubuntu"],
+         "badges": ["Vitest", "Biome", "ESLint", "Prettier", "GitHub Actions", "Cloudflare Workers"]},
+    ],
     "principles": [
         ("Types end to end", ["Strict TypeScript and schema", "validation at every boundary."]),
         ("Data you can audit", ["Append-only records and explicit", "corrections. No silent changes."]),
@@ -66,6 +79,42 @@ def project(p, t):
     b += pills(66 + tw(p["lang"], 14) + 22, h - 76, p["tags"], t)
     return frame(w, h, t, b, f'{p["title"]}: ' + " ".join(p["desc"]))
 
+SKILL_W, SKILL_PAD = 600, 44
+
+def badge_rows(items, size=14):
+    """Greedy wrap of pill badges into rows that fit inside the card."""
+    rows, cur, cx = [], [], 0
+    limit = SKILL_W - 2 * SKILL_PAD
+    for it in items:
+        pw = tw(it, size) + 28
+        if cur and cx + pw > limit:
+            rows.append(cur); cur, cx = [], 0
+        cur.append((it, pw)); cx += pw + 10
+    if cur: rows.append(cur)
+    return rows
+
+def skills_card(cat, t, rows_total):
+    """Card for one skill category. rows_total keeps every card the same height."""
+    w = SKILL_W
+    h = 168 + rows_total * 42 + 30
+    b = f'<text class="eyebrow" x="{SKILL_PAD}" y="58">SKILLS</text>'
+    b += f'<text class="title" x="{SKILL_PAD}" y="96">{esc(cat["title"])}</text>'
+    cx = SKILL_PAD
+    for proj in cat["projects"]:
+        b += f'<circle cx="{cx+5}" cy="126" r="4" fill="{t["accent"]}"/>'
+        b += f'<text class="sub" x="{cx+16}" y="132" style="font-size:15px">{esc(proj)}</text>'
+        cx += 16 + tw(proj, 15) + 22
+    y = 160
+    for row in badge_rows(cat["badges"]):
+        x = SKILL_PAD
+        for name, pw in row:
+            b += f'<rect x="{x:.0f}" y="{y}" width="{pw:.0f}" height="32" rx="16" fill="{t["pill"]}"/>'
+            b += f'<text class="pill" x="{x+pw/2:.0f}" y="{y+21}" text-anchor="middle">{esc(name)}</text>'
+            x += pw + 10
+        y += 42
+    label = f'{cat["title"]} skills from {" and ".join(cat["projects"])}: ' + ", ".join(cat["badges"])
+    return frame(w, h, t, b, label)
+
 def principles(items, t):
     w, h = 1200, 440
     b = '<text class="eyebrow" x="52" y="66">HOW I WORK</text>'
@@ -83,5 +132,8 @@ root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets")
 for name, t in THEMES.items():
     for p in CONFIG["projects"]:
         open(f"{root}/project-{p['slug']}-{name}.svg", "w").write(project(p, t))
+    rows_total = max(len(badge_rows(c["badges"])) for c in CONFIG["skills"])
+    for c in CONFIG["skills"]:
+        open(f"{root}/skills-{c['slug']}-{name}.svg", "w").write(skills_card(c, t, rows_total))
     open(f"{root}/principles-{name}.svg", "w").write(principles(CONFIG["principles"], t))
 print("cards written to assets/")

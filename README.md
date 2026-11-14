@@ -1,7 +1,5 @@
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/header-dark.svg" />
-  <img alt="Khanya. Senior Software Engineer." src="./assets/header-light.svg" width="100%" />
-</picture>
+<img alt="Khanya. Senior Software Engineer." src="./assets/header-light.svg#gh-light-mode-only" width="100%" />
+<img alt="Khanya. Senior Software Engineer." src="./assets/header-dark.svg#gh-dark-mode-only" width="100%" />
 
 I'm a senior software engineer focused on backend systems: API design, data modelling and services that stay correct under real-world load.
 I care about type safety, auditable data and clean interfaces, and about shipping work other engineers enjoy maintaining.
@@ -12,10 +10,13 @@ I care about type safety, auditable data and clean interfaces, and about shippin
 
 <p>
   <a href="https://github.com/khanyakupelo01/api">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="./assets/project-api-dark.svg" />
-      <img alt="api: Typed REST API with role-based access, Zod validation and OpenAPI docs." src="./assets/project-api-light.svg" width="49%" />
-    </picture></a>
+<img alt="api: Typed REST API with role-based access, Zod validation and OpenAPI docs." src="./assets/project-api-light.svg#gh-light-mode-only" width="49%" />
+<img alt="api: Typed REST API with role-based access, Zod validation and OpenAPI docs." src="./assets/project-api-dark.svg#gh-dark-mode-only" width="49%" />
+  </a>
+</p>
+
+<p>
+  <a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/">api live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://ubuntu.sibulelekupelo.workers.dev/">ubuntu live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/ubuntu">ubuntu on GitHub</a>
 </p>
 
 <p align="right">
@@ -26,22 +27,29 @@ I care about type safety, auditable data and clean interfaces, and about shippin
 
 ### Skills
 
-<table>
-  <tr><th align="left">Category</th><th align="left">Skills</th><th align="left">Evidence</th></tr>
-  <tr><td>Languages</td><td>TypeScript, JavaScript, SQL</td><td>TypeScript: <a href="https://github.com/khanyakupelo01/api">api</a>, <a href="https://github.com/khanyakupelo01/ubuntu">ubuntu</a>, hlomela-api, hlomela-web (earlier work). JavaScript: Detailed-Electricity-Usage-Express (earlier work). SQL: electricity database scripts.</td></tr>
-  <tr><td>Backend</td><td>Node.js, Hono, Fastify, Express, Zod, OpenAPI / Swagger</td><td>Hono, Zod, OpenAPI: <a href="https://github.com/khanyakupelo01/api">api</a>. Fastify: hlomela-api. Express, Swagger: Detailed-Electricity-Usage-Express (earlier work).</td></tr>
-  <tr><td>Data</td><td>PostgreSQL, Neon, Drizzle ORM, schema design</td><td>PostgreSQL, Neon, Drizzle: <a href="https://github.com/khanyakupelo01/api">api</a>, <a href="https://github.com/khanyakupelo01/ubuntu">ubuntu</a>. Schema design: electricity database (owners, properties, transactions).</td></tr>
-  <tr><td>Frontend</td><td>React, TanStack Start, Next.js, Tailwind CSS, Vite</td><td>React, TanStack Start, Tailwind, Vite: <a href="https://github.com/khanyakupelo01/ubuntu">ubuntu</a>. Next.js: hlomela-web (earlier work).</td></tr>
-  <tr><td>Tooling &amp; Delivery</td><td>Vitest, Mocha, Chai, ESLint, Prettier, Biome, GitHub Actions, Cloudflare Workers</td><td>Vitest, Biome, GitHub Actions: <a href="https://github.com/khanyakupelo01/api">api</a>. ESLint, Prettier, Cloudflare Workers, GitHub Actions: <a href="https://github.com/khanyakupelo01/ubuntu">ubuntu</a>. Mocha, Chai: Detailed-Electricity-Usage-Express (earlier work).</td></tr>
-</table>
+<p>
+<img alt="Languages and frontend skills from api and ubuntu: TypeScript, React, TanStack Start, Tailwind CSS, shadcn/ui, Vite." src="./assets/skills-languages-frontend-light.svg#gh-light-mode-only" width="49%" />
+<img alt="Languages and frontend skills from api and ubuntu: TypeScript, React, TanStack Start, Tailwind CSS, shadcn/ui, Vite." src="./assets/skills-languages-frontend-dark.svg#gh-dark-mode-only" width="49%" />
+<img alt="Backend skills from api and ubuntu: Node.js, Hono, OpenAPI, Swagger UI, Zod, openapi-fetch." src="./assets/skills-backend-light.svg#gh-light-mode-only" width="49%" />
+<img alt="Backend skills from api and ubuntu: Node.js, Hono, OpenAPI, Swagger UI, Zod, openapi-fetch." src="./assets/skills-backend-dark.svg#gh-dark-mode-only" width="49%" />
+<img alt="Data skills from api and ubuntu: PostgreSQL, Neon, Drizzle ORM, schema migrations." src="./assets/skills-data-light.svg#gh-light-mode-only" width="49%" />
+<img alt="Data skills from api and ubuntu: PostgreSQL, Neon, Drizzle ORM, schema migrations." src="./assets/skills-data-dark.svg#gh-dark-mode-only" width="49%" />
+<img alt="Tooling and delivery skills from api and ubuntu: Vitest, Biome, ESLint, Prettier, GitHub Actions, Cloudflare Workers." src="./assets/skills-tooling-delivery-light.svg#gh-light-mode-only" width="49%" />
+<img alt="Tooling and delivery skills from api and ubuntu: Vitest, Biome, ESLint, Prettier, GitHub Actions, Cloudflare Workers." src="./assets/skills-tooling-delivery-dark.svg#gh-dark-mode-only" width="49%" />
+</p>
 
+Every skill is used in one of two live projects:
+<a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/">api</a> and <a href="https://ubuntu.sibulelekupelo.workers.dev/">ubuntu</a>.
 
-<br /><br />
+- **Languages and frontend:** TypeScript, React, TanStack Start, Tailwind CSS, shadcn/ui, Vite
+- **Backend:** Node.js, Hono, OpenAPI, Swagger UI, Zod, openapi-fetch
+- **Data:** PostgreSQL, Neon, Drizzle ORM, schema migrations
+- **Tooling and delivery:** Vitest, Biome, ESLint, Prettier, GitHub Actions, Cloudflare Workers
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/principles-dark.svg" />
-  <img alt="How I work. Types end to end. Data you can audit. Contracts first. Secure by default." src="./assets/principles-light.svg" width="100%" />
-</picture>
+<br />
+
+<img alt="How I work. Types end to end. Data you can audit. Contracts first. Secure by default." src="./assets/principles-light.svg#gh-light-mode-only" width="100%" />
+<img alt="How I work. Types end to end. Data you can audit. Contracts first. Secure by default." src="./assets/principles-dark.svg#gh-dark-mode-only" width="100%" />
 
 <br /><br />
 

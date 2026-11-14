@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="282" viewBox="0 0 600 282" role="img" aria-label="Backend skills from api and ubuntu: Node.js, Hono, OpenAPI, Swagger UI, Zod, openapi-fetch">
+<defs><filter id="s" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.0"/></filter></defs>
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Segoe UI",Helvetica,Arial,sans-serif; }
+  .title { font-size: 26px; font-weight: 600; letter-spacing: -0.4px; fill: #F5F5F7; }
+  .h { font-size: 21px; font-weight: 600; letter-spacing: -0.3px; fill: #F5F5F7; }
+  .sub { font-size: 17px; fill: #A1A1A6; }
+  .eyebrow { font-size: 13px; font-weight: 600; letter-spacing: 1.6px; fill: #A1A1A6; }
+  .pill { font-size: 14px; font-weight: 500; fill: #F5F5F7; }
+</style>
+<rect x="12" y="8" width="576" height="258" rx="22" fill="#1C1C1E" stroke="#2C2C2E" filter="url(#s)"/>
+<text class="eyebrow" x="44" y="58">SKILLS</text><text class="title" x="44" y="96">Backend</text><circle cx="49" cy="126" r="4" fill="#2997FF"/><text class="sub" x="60" y="132" style="font-size:15px">api</text><circle cx="112.2" cy="126" r="4" fill="#2997FF"/><text class="sub" x="123.2" y="132" style="font-size:15px">ubuntu</text><rect x="44" y="160" width="83" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="85" y="181" text-anchor="middle">Node.js</text><rect x="137" y="160" width="59" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="167" y="181" text-anchor="middle">Hono</text><rect x="206" y="160" width="83" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="248" y="181" text-anchor="middle">OpenAPI</text><rect x="299" y="160" width="106" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="352" y="181" text-anchor="middle">Swagger UI</text><rect x="416" y="160" width="52" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="441" y="181" text-anchor="middle">Zod</text><rect x="44" y="202" width="130" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="109" y="223" text-anchor="middle">openapi-fetch</text>
+</svg>
