@@ -76,13 +76,12 @@ def pills(x, y, items, t, size=14):
     return out
 
 def project(p, t):
-    w, h = 600, 260
-    b = f'<text class="eyebrow" x="44" y="58">PROJECT</text>'
-    b += f'<text class="title" x="44" y="96">{esc(p["title"])}</text>'
+    w, h = 600, 230
+    b = f'<text class="title" x="44" y="66">{esc(p["title"])}</text>'
     # arrow
-    b += f'<path d="M540 56 l12 0 l0 12 M552 56 l-14 14" fill="none" stroke="{t["sub"]}" stroke-width="2" stroke-linecap="round"/>'
+    b += f'<path d="M540 36 l12 0 l0 12 M552 36 l-14 14" fill="none" stroke="{t["sub"]}" stroke-width="2" stroke-linecap="round"/>'
     for i, line in enumerate(p["desc"]):
-        b += f'<text class="sub" x="44" y="{132+i*24}">{esc(line)}</text>'
+        b += f'<text class="sub" x="44" y="{102+i*24}">{esc(line)}</text>'
     b += f'<circle cx="52" cy="{h-60}" r="6" fill="{t["accent"]}"/>'
     b += f'<text class="pill" x="66" y="{h-55}">{esc(p["lang"])}</text>'
     b += pills(66 + tw(p["lang"], 14) + 22, h - 76, p["tags"], t)
@@ -95,7 +94,7 @@ def badge_rows(items, size=14):
     rows, cur, cx = [], [], 0
     limit = SKILL_W - 2 * SKILL_PAD
     for name, icon in items:
-        pw = tw(name, size) + 28 + 24  # 24px for the 16px icon and its gap
+        pw = tw(name, size, 0.5) + 28 + 24  # 24px for the 16px icon and its gap
         if cur and cx + pw > limit:
             rows.append(cur); cur, cx = [], 0
         cur.append((name, icon, pw)); cx += pw + 10
@@ -105,15 +104,14 @@ def badge_rows(items, size=14):
 def skills_card(cat, t, rows_total):
     """Card for one skill category. rows_total keeps every card the same height."""
     w = SKILL_W
-    h = 168 + rows_total * 42 + 30
-    b = f'<text class="eyebrow" x="{SKILL_PAD}" y="58">SKILLS</text>'
-    b += f'<text class="title" x="{SKILL_PAD}" y="96">{esc(cat["title"])}</text>'
+    h = 138 + rows_total * 42 + 30
+    b = f'<text class="title" x="{SKILL_PAD}" y="66">{esc(cat["title"])}</text>'
     cx = SKILL_PAD
     for proj in cat["projects"]:
-        b += f'<circle cx="{cx+5}" cy="126" r="4" fill="{t["accent"]}"/>'
-        b += f'<text class="sub" x="{cx+16}" y="132" style="font-size:15px">{esc(proj)}</text>'
+        b += f'<circle cx="{cx+5}" cy="96" r="4" fill="{t["accent"]}"/>'
+        b += f'<text class="sub" x="{cx+16}" y="102" style="font-size:15px">{esc(proj)}</text>'
         cx += 16 + tw(proj, 15) + 22
-    y = 160
+    y = 130
     for row in badge_rows(cat["badges"]):
         x = SKILL_PAD
         for name, icon, pw in row:

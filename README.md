@@ -41,4 +41,4 @@ I care about type safety, auditable data and clean interfaces, and about shippin
 
 <br /><br />
 
-<p align="center"><sub>Based in South Africa · Open to senior and staff engineering roles</sub></p>
+<p align="center"><sub>Based in South Africa · Open to senior and staff engineering roles&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://stackoverflow.com/users/11373257/khanya">Stack Overflow</a></sub></p>

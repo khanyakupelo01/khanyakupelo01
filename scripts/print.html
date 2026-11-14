@@ -12,9 +12,11 @@
   h2 { font-size: 15pt; letter-spacing: -0.2px; margin: 6mm 0 2.5mm; }
   .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; }
   .grid img { width: 100%; }
-  .links { margin: 3mm 0 0; padding: 0; list-style: none; font-size: 10pt; }
-  .links li { margin: 0 0 1mm; }
-  .links b { display: inline-block; min-width: 38mm; font-weight: 600; }
+  .linkcols { display: grid; grid-template-columns: 1fr 1fr; gap: 6mm; }
+  .linkcols h3 { font-size: 9pt; font-weight: 600; margin: 0 0 2mm; color: #6E6E73; letter-spacing: 0.6px; text-transform: uppercase; }
+  .linkcols ul { margin: 0; padding: 0; list-style: none; }
+  .linkcols li { margin: 0 0 2.5mm; font-size: 10.5pt; line-height: 1.3; }
+  .linkcols small { display: block; color: #6E6E73; font-size: 8.5pt; }
   a { color: #0071E3; text-decoration: none; }
   .wide { width: 100%; }
   .avoid { break-inside: avoid; }
@@ -29,12 +31,6 @@
   <a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/"><img src="{{ASSETS}}/project-api.svg" alt="ubuntu api"></a>
   <a href="https://ubuntu.sibulelekupelo.workers.dev/"><img src="{{ASSETS}}/project-ubuntu.svg" alt="ubuntu ui"></a>
 </div>
-<ul class="links">
-  <li><b>ubuntu api live</b> <a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/">br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech</a></li>
-  <li><b>ubuntu ui live</b> <a href="https://ubuntu.sibulelekupelo.workers.dev/">ubuntu.sibulelekupelo.workers.dev</a></li>
-  <li><b>ubuntu api on GitHub</b> <a href="https://github.com/khanyakupelo01/api">github.com/khanyakupelo01/api</a></li>
-  <li><b>ubuntu ui on GitHub</b> <a href="https://github.com/khanyakupelo01/ubuntu">github.com/khanyakupelo01/ubuntu</a></li>
-</ul>
 </div>
 
 <div class="avoid">
@@ -48,9 +44,22 @@
 </div>
 
 <div class="avoid">
-<h2>How I work</h2>
 <img class="wide" src="{{ASSETS}}/principles.svg" alt="How I work">
 </div>
 
-<p class="foot">Based in South Africa · Open to senior and staff engineering roles<br><a href="https://github.com/khanyakupelo01">github.com/khanyakupelo01</a></p>
+<div class="avoid">
+<h2>Links</h2>
+<div class="linkcols">
+  <div><h3>Live</h3><ul>
+    <li><a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/">ubuntu api</a><small>br-mute-poetry-bewqw5un-todos…aws.neon.tech</small></li>
+    <li><a href="https://ubuntu.sibulelekupelo.workers.dev/">ubuntu ui</a><small>ubuntu.sibulelekupelo.workers.dev</small></li>
+  </ul></div>
+  <div><h3>Source</h3><ul>
+    <li><a href="https://github.com/khanyakupelo01/api">ubuntu api on GitHub</a><small>github.com/khanyakupelo01/api</small></li>
+    <li><a href="https://github.com/khanyakupelo01/ubuntu">ubuntu ui on GitHub</a><small>github.com/khanyakupelo01/ubuntu</small></li>
+  </ul></div>
+</div>
+</div>
+
+<p class="foot">Based in South Africa · Open to senior and staff engineering roles<br><a href="https://github.com/khanyakupelo01">github.com/khanyakupelo01</a> · <a href="https://stackoverflow.com/users/11373257/khanya">stackoverflow.com/users/11373257/khanya</a></p>
 </body></html>
