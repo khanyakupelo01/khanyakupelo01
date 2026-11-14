@@ -1,9 +1,9 @@
 <img alt="Khanya. Senior Software Engineer." src="./assets/header-light.svg#gh-light-mode-only" width="100%" />
 <img alt="Khanya. Senior Software Engineer." src="./assets/header-dark.svg#gh-dark-mode-only" width="100%" />
 
-I'm a senior software engineer focused on backend systems: API design, data modelling and services that stay correct under real-world load.
-I care about type safety, auditable data and clean interfaces, and about shipping work other engineers enjoy maintaining.
-Based in South Africa · Open to senior and staff engineering roles.
+I'm a senior software engineer focused on backend systems: APIs, data models and services that stay correct under load.
+I value type safety, auditable data and code other engineers enjoy maintaining.
+Based in South Africa and open to senior and staff roles.
 
 <p><a href="./assets/khanya-profile.pdf">Download this profile as a PDF</a></p>
 
