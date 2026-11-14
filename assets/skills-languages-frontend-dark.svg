@@ -8,6 +8,6 @@
   .eyebrow { font-size: 13px; font-weight: 600; letter-spacing: 1.6px; fill: #A1A1A6; }
   .pill { font-size: 14px; font-weight: 500; fill: #F5F5F7; }
 </style>
-<rect x="12" y="8" width="576" height="258" rx="22" fill="#1C1C1E" stroke="#2C2C2E" filter="url(#s)"/>
+<rect x="12" y="8" width="576" height="258" rx="22" fill="#1C1C1E" stroke="#3A3A3C" filter="url(#s)"/>
 <text class="eyebrow" x="44" y="58">SKILLS</text><text class="title" x="44" y="96">Languages &amp; Frontend</text><circle cx="49" cy="126" r="4" fill="#2997FF"/><text class="sub" x="60" y="132" style="font-size:15px">api</text><circle cx="112.2" cy="126" r="4" fill="#2997FF"/><text class="sub" x="123.2" y="132" style="font-size:15px">ubuntu</text><rect x="44" y="160" width="106" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="97" y="181" text-anchor="middle">TypeScript</text><rect x="160" y="160" width="67" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="194" y="181" text-anchor="middle">React</text><rect x="238" y="160" width="138" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="306" y="181" text-anchor="middle">TanStack Start</text><rect x="385" y="160" width="122" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="446" y="181" text-anchor="middle">Tailwind CSS</text><rect x="44" y="202" width="99" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="93" y="223" text-anchor="middle">shadcn/ui</text><rect x="153" y="202" width="59" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="182" y="223" text-anchor="middle">Vite</text>
 </svg>

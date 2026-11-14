@@ -9,10 +9,8 @@ I care about type safety, auditable data and clean interfaces, and about shippin
 ### Currently building
 
 <p>
-<img alt="api: Typed REST API with role-based access, Zod validation and OpenAPI docs." src="./assets/project-api-light.svg#gh-light-mode-only" width="49%" />
-<img alt="api: Typed REST API with role-based access, Zod validation and OpenAPI docs." src="./assets/project-api-dark.svg#gh-dark-mode-only" width="49%" />
-<img alt="ubuntu: Web app for a communal ceremony-support scheme, built on TanStack Start." src="./assets/project-ubuntu-light.svg#gh-light-mode-only" width="49%" />
-<img alt="ubuntu: Web app for a communal ceremony-support scheme, built on TanStack Start." src="./assets/project-ubuntu-dark.svg#gh-dark-mode-only" width="49%" />
+<a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/"><img alt="api: Typed REST API with role-based access, Zod validation and OpenAPI docs. Opens the live site." src="./assets/project-api-dark.svg" width="49%" /></a>
+<a href="https://ubuntu.sibulelekupelo.workers.dev/"><img alt="ubuntu: Web app for a communal ceremony-support scheme, built on TanStack Start. Opens the live site." src="./assets/project-ubuntu-dark.svg" width="49%" /></a>
 </p>
 
 <p>

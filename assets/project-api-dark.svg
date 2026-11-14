@@ -8,6 +8,6 @@
   .eyebrow { font-size: 13px; font-weight: 600; letter-spacing: 1.6px; fill: #A1A1A6; }
   .pill { font-size: 14px; font-weight: 500; fill: #F5F5F7; }
 </style>
-<rect x="12" y="8" width="576" height="236" rx="22" fill="#1C1C1E" stroke="#2C2C2E" filter="url(#s)"/>
+<rect x="12" y="8" width="576" height="236" rx="22" fill="#1C1C1E" stroke="#3A3A3C" filter="url(#s)"/>
 <text class="eyebrow" x="44" y="58">PROJECT</text><text class="title" x="44" y="96">api</text><path d="M540 56 l12 0 l0 12 M552 56 l-14 14" fill="none" stroke="#A1A1A6" stroke-width="2" stroke-linecap="round"/><text class="sub" x="44" y="132">Typed REST API with role-based access,</text><text class="sub" x="44" y="156">Zod validation and OpenAPI docs.</text><circle cx="52" cy="200" r="6" fill="#2997FF"/><text class="pill" x="66" y="205">TypeScript</text><rect x="166" y="184" width="59" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="196" y="205" text-anchor="middle">Hono</text><rect x="236" y="184" width="83" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="277" y="205" text-anchor="middle">Drizzle</text><rect x="329" y="184" width="130" height="32" rx="16" fill="#2C2C2E"/><text class="pill" x="394" y="205" text-anchor="middle">Neon Postgres</text>
 </svg>

@@ -36,7 +36,7 @@ CONFIG = {
 THEMES = {
     "light": dict(card="#FFFFFF", border="#E5E5EA", text="#1D1D1F", sub="#6E6E73",
                   pill="#F5F5F7", pilltext="#1D1D1F", accent="#0071E3", shadow="0.08"),
-    "dark":  dict(card="#1C1C1E", border="#2C2C2E", text="#F5F5F7", sub="#A1A1A6",
+    "dark":  dict(card="#1C1C1E", border="#3A3A3C", text="#F5F5F7", sub="#A1A1A6",
                   pill="#2C2C2E", pilltext="#F5F5F7", accent="#2997FF", shadow="0.0"),
 }
 FONT = '-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Segoe UI",Helvetica,Arial,sans-serif'
@@ -133,8 +133,9 @@ def principles(items, t):
 
 root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets")
 for name, t in THEMES.items():
-    for p in CONFIG["projects"]:
-        open(f"{root}/project-{p['slug']}-{name}.svg", "w").write(project(p, t))
+    if name == "dark":  # linked project cards are one theme-neutral image (constitution II)
+        for p in CONFIG["projects"]:
+            open(f"{root}/project-{p['slug']}-dark.svg", "w").write(project(p, t))
     rows_total = max(len(badge_rows(c["badges"])) for c in CONFIG["skills"])
     for c in CONFIG["skills"]:
         open(f"{root}/skills-{c['slug']}-{name}.svg", "w").write(skills_card(c, t, rows_total))
