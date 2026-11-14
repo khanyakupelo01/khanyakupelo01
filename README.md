@@ -16,10 +16,6 @@ Based in South Africa · Open to senior and staff engineering roles.
 <a href="https://ubuntu.sibulelekupelo.workers.dev/"><img alt="ubuntu ui: Web app for a communal ceremony-support scheme, built on TanStack Start. Opens the live site." src="./assets/project-ubuntu.svg" width="49%" /></a>
 </p>
 
-<p>
-  <a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/">ubuntu api live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://ubuntu.sibulelekupelo.workers.dev/">ubuntu ui live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/api">ubuntu api on GitHub</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/ubuntu">ubuntu ui on GitHub</a>
-</p>
-
 <br />
 
 ### Skills
@@ -38,7 +34,7 @@ Based in South Africa · Open to senior and staff engineering roles.
 <br /><br />
 
 <p align="center">
+  <a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/">ubuntu api live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://ubuntu.sibulelekupelo.workers.dev/">ubuntu ui live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/api">ubuntu api on GitHub</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/ubuntu">ubuntu ui on GitHub</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://stackoverflow.com/users/11373257/khanya">Stack Overflow</a><br />
   <a href="https://github.com/khanyakupelo01/api/actions/workflows/ci.yml"><img src="https://github.com/khanyakupelo01/api/actions/workflows/ci.yml/badge.svg" alt="ubuntu api CI status" /></a>
   <a href="https://github.com/khanyakupelo01/ubuntu/actions/workflows/ci-deploy.yml"><img src="https://github.com/khanyakupelo01/ubuntu/actions/workflows/ci-deploy.yml/badge.svg" alt="ubuntu ui CI status" /></a>
-  <a href="https://stackoverflow.com/users/11373257/khanya"><sub>Stack Overflow</sub></a>
 </p>
