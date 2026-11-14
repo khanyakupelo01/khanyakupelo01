@@ -9,12 +9,12 @@ I care about type safety, auditable data and clean interfaces, and about shippin
 ### Currently building
 
 <p>
-<a href="https://github.com/khanyakupelo01/api"><img alt="api: Typed REST API with role-based access, Zod validation and OpenAPI docs." src="./assets/project-api-light.svg#gh-light-mode-only" width="49%" /></a>
-<a href="https://github.com/khanyakupelo01/api"><img alt="api: Typed REST API with role-based access, Zod validation and OpenAPI docs." src="./assets/project-api-dark.svg#gh-dark-mode-only" width="49%" /></a>
+<img alt="api: Typed REST API with role-based access, Zod validation and OpenAPI docs." src="./assets/project-api-light.svg#gh-light-mode-only" width="49%" /></a>
+<img alt="api: Typed REST API with role-based access, Zod validation and OpenAPI docs." src="./assets/project-api-dark.svg#gh-dark-mode-only" width="49%" />
 </p>
 
 <p>
-  <a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/">api live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://ubuntu.sibulelekupelo.workers.dev/">ubuntu live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/ubuntu">ubuntu on GitHub</a>
+  <a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/">api live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://ubuntu.sibulelekupelo.workers.dev/">ubuntu live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/api">api on GitHub</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/ubuntu">ubuntu on GitHub</a>
 </p>
 
 <p align="right">
