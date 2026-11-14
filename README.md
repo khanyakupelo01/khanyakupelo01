@@ -9,8 +9,10 @@ I care about type safety, auditable data and clean interfaces, and about shippin
 ### Currently building
 
 <p>
-<img alt="api: Typed REST API with role-based access, Zod validation and OpenAPI docs." src="./assets/project-api-light.svg#gh-light-mode-only" width="49%" /></a>
+<img alt="api: Typed REST API with role-based access, Zod validation and OpenAPI docs." src="./assets/project-api-light.svg#gh-light-mode-only" width="49%" />
 <img alt="api: Typed REST API with role-based access, Zod validation and OpenAPI docs." src="./assets/project-api-dark.svg#gh-dark-mode-only" width="49%" />
+<img alt="ubuntu: Web app for a communal ceremony-support scheme, built on TanStack Start." src="./assets/project-ubuntu-light.svg#gh-light-mode-only" width="49%" />
+<img alt="ubuntu: Web app for a communal ceremony-support scheme, built on TanStack Start." src="./assets/project-ubuntu-dark.svg#gh-dark-mode-only" width="49%" />
 </p>
 
 <p>
@@ -35,14 +37,6 @@ I care about type safety, auditable data and clean interfaces, and about shippin
 <img alt="Tooling and delivery skills from api and ubuntu: Vitest, Biome, ESLint, Prettier, GitHub Actions, Cloudflare Workers." src="./assets/skills-tooling-delivery-light.svg#gh-light-mode-only" width="49%" />
 <img alt="Tooling and delivery skills from api and ubuntu: Vitest, Biome, ESLint, Prettier, GitHub Actions, Cloudflare Workers." src="./assets/skills-tooling-delivery-dark.svg#gh-dark-mode-only" width="49%" />
 </p>
-
-Every skill is used in one of two live projects:
-<a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/">api</a> and <a href="https://ubuntu.sibulelekupelo.workers.dev/">ubuntu</a>.
-
-- **Languages and frontend:** TypeScript, React, TanStack Start, Tailwind CSS, shadcn/ui, Vite
-- **Backend:** Node.js, Hono, OpenAPI, Swagger UI, Zod, openapi-fetch
-- **Data:** PostgreSQL, Neon, Drizzle ORM, schema migrations
-- **Tooling and delivery:** Vitest, Biome, ESLint, Prettier, GitHub Actions, Cloudflare Workers
 
 <br />
 

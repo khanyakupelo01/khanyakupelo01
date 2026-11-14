@@ -8,6 +8,9 @@ CONFIG = {
         {"slug": "api", "title": "api", "lang": "TypeScript",
          "desc": ["Typed REST API with role-based access,", "Zod validation and OpenAPI docs."],
          "tags": ["Hono", "Drizzle", "Neon Postgres"]},
+        {"slug": "ubuntu", "title": "ubuntu", "lang": "TypeScript",
+         "desc": ["Web app for a communal ceremony-support", "scheme, built on TanStack Start."],
+         "tags": ["React", "TanStack Start", "Tailwind CSS"]},
     ],
     # Skills. EVIDENCE RULE (constitution III): a badge may be listed only if it is used in the
     # source of the `api` or `ubuntu` project, and it must appear in the audit table of
