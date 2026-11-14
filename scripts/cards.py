@@ -5,10 +5,10 @@ import math, os
 
 CONFIG = {
     "projects": [
-        {"slug": "api", "title": "api", "lang": "TypeScript",
+        {"slug": "api", "title": "ubuntu api", "lang": "TypeScript",
          "desc": ["Typed REST API with role-based access,", "Zod validation and OpenAPI docs."],
          "tags": ["Hono", "Drizzle", "Neon Postgres"]},
-        {"slug": "ubuntu", "title": "ubuntu", "lang": "TypeScript",
+        {"slug": "ubuntu", "title": "ubuntu ui", "lang": "TypeScript",
          "desc": ["Web app for a communal ceremony-support", "scheme, built on TanStack Start."],
          "tags": ["React", "TanStack Start", "Tailwind CSS"]},
     ],
@@ -16,13 +16,13 @@ CONFIG = {
     # source of the `api` or `ubuntu` project, and it must appear in the audit table of
     # specs/001-resume-skills-section/research.md. One badge, one category.
     "skills": [
-        {"slug": "languages-frontend", "title": "Languages & Frontend", "projects": ["api", "ubuntu"],
+        {"slug": "languages-frontend", "title": "Languages & Frontend", "projects": ["ubuntu api", "ubuntu ui"],
          "badges": ["TypeScript", "React", "TanStack Start", "Tailwind CSS", "shadcn/ui", "Vite"]},
-        {"slug": "backend", "title": "Backend", "projects": ["api", "ubuntu"],
+        {"slug": "backend", "title": "Backend", "projects": ["ubuntu api", "ubuntu ui"],
          "badges": ["Node.js", "Hono", "OpenAPI", "Swagger UI", "Zod", "openapi-fetch"]},
-        {"slug": "data", "title": "Data", "projects": ["api", "ubuntu"],
+        {"slug": "data", "title": "Data", "projects": ["ubuntu api", "ubuntu ui"],
          "badges": ["PostgreSQL", "Neon", "Drizzle ORM", "Schema migrations"]},
-        {"slug": "tooling-delivery", "title": "Tooling & Delivery", "projects": ["api", "ubuntu"],
+        {"slug": "tooling-delivery", "title": "Tooling & Delivery", "projects": ["ubuntu api", "ubuntu ui"],
          "badges": ["Vitest", "Biome", "ESLint", "Prettier", "GitHub Actions", "Cloudflare Workers"]},
     ],
     "principles": [

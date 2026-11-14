@@ -9,16 +9,17 @@ I care about type safety, auditable data and clean interfaces, and about shippin
 ### Currently building
 
 <p>
-<a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/"><img alt="api: Typed REST API with role-based access, Zod validation and OpenAPI docs. Opens the live site." src="./assets/project-api-dark.svg" width="49%" /></a>
-<a href="https://ubuntu.sibulelekupelo.workers.dev/"><img alt="ubuntu: Web app for a communal ceremony-support scheme, built on TanStack Start. Opens the live site." src="./assets/project-ubuntu-dark.svg" width="49%" /></a>
+<a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/"><img alt="ubuntu api: Typed REST API with role-based access, Zod validation and OpenAPI docs. Opens the live site." src="./assets/project-api-dark.svg" width="49%" /></a>
+<a href="https://ubuntu.sibulelekupelo.workers.dev/"><img alt="ubuntu ui: Web app for a communal ceremony-support scheme, built on TanStack Start. Opens the live site." src="./assets/project-ubuntu-dark.svg" width="49%" /></a>
 </p>
 
 <!-- <p>
-  <a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/">api live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://ubuntu.sibulelekupelo.workers.dev/">ubuntu live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/api">api on GitHub</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/ubuntu">ubuntu on GitHub</a>
+  <a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/">ubuntu api live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://ubuntu.sibulelekupelo.workers.dev/">ubuntu ui live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/api">ubuntu api on GitHub</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/ubuntu">ubuntu ui on GitHub</a>
 </p> -->
 
-<p align="right">
-  <a href="https://github.com/khanyakupelo01/api/actions/workflows/ci.yml"><img src="https://github.com/khanyakupelo01/api/actions/workflows/ci.yml/badge.svg" alt="api CI status" /></a>
+<p>
+  <a href="https://github.com/khanyakupelo01/api/actions/workflows/ci.yml"><img src="https://github.com/khanyakupelo01/api/actions/workflows/ci.yml/badge.svg" alt="ubuntu api CI status" /></a>
+  <a href="https://github.com/khanyakupelo01/ubuntu/actions/workflows/ci-deploy.yml"><img src="https://github.com/khanyakupelo01/ubuntu/actions/workflows/ci-deploy.yml/badge.svg" alt="ubuntu ui CI status" /></a>
 </p>
 
 <br />
@@ -26,14 +27,14 @@ I care about type safety, auditable data and clean interfaces, and about shippin
 ### Skills
 
 <p>
-<img alt="Languages and frontend skills from api and ubuntu: TypeScript, React, TanStack Start, Tailwind CSS, shadcn/ui, Vite." src="./assets/skills-languages-frontend-light.svg#gh-light-mode-only" width="49%" />
-<img alt="Languages and frontend skills from api and ubuntu: TypeScript, React, TanStack Start, Tailwind CSS, shadcn/ui, Vite." src="./assets/skills-languages-frontend-dark.svg#gh-dark-mode-only" width="49%" />
-<img alt="Backend skills from api and ubuntu: Node.js, Hono, OpenAPI, Swagger UI, Zod, openapi-fetch." src="./assets/skills-backend-light.svg#gh-light-mode-only" width="49%" />
-<img alt="Backend skills from api and ubuntu: Node.js, Hono, OpenAPI, Swagger UI, Zod, openapi-fetch." src="./assets/skills-backend-dark.svg#gh-dark-mode-only" width="49%" />
-<img alt="Data skills from api and ubuntu: PostgreSQL, Neon, Drizzle ORM, schema migrations." src="./assets/skills-data-light.svg#gh-light-mode-only" width="49%" />
-<img alt="Data skills from api and ubuntu: PostgreSQL, Neon, Drizzle ORM, schema migrations." src="./assets/skills-data-dark.svg#gh-dark-mode-only" width="49%" />
-<img alt="Tooling and delivery skills from api and ubuntu: Vitest, Biome, ESLint, Prettier, GitHub Actions, Cloudflare Workers." src="./assets/skills-tooling-delivery-light.svg#gh-light-mode-only" width="49%" />
-<img alt="Tooling and delivery skills from api and ubuntu: Vitest, Biome, ESLint, Prettier, GitHub Actions, Cloudflare Workers." src="./assets/skills-tooling-delivery-dark.svg#gh-dark-mode-only" width="49%" />
+<img alt="Languages and frontend skills from ubuntu api and ubuntu ui: TypeScript, React, TanStack Start, Tailwind CSS, shadcn/ui, Vite." src="./assets/skills-languages-frontend-light.svg#gh-light-mode-only" width="49%" />
+<img alt="Languages and frontend skills from ubuntu api and ubuntu ui: TypeScript, React, TanStack Start, Tailwind CSS, shadcn/ui, Vite." src="./assets/skills-languages-frontend-dark.svg#gh-dark-mode-only" width="49%" />
+<img alt="Backend skills from ubuntu api and ubuntu ui: Node.js, Hono, OpenAPI, Swagger UI, Zod, openapi-fetch." src="./assets/skills-backend-light.svg#gh-light-mode-only" width="49%" />
+<img alt="Backend skills from ubuntu api and ubuntu ui: Node.js, Hono, OpenAPI, Swagger UI, Zod, openapi-fetch." src="./assets/skills-backend-dark.svg#gh-dark-mode-only" width="49%" />
+<img alt="Data skills from ubuntu api and ubuntu ui: PostgreSQL, Neon, Drizzle ORM, schema migrations." src="./assets/skills-data-light.svg#gh-light-mode-only" width="49%" />
+<img alt="Data skills from ubuntu api and ubuntu ui: PostgreSQL, Neon, Drizzle ORM, schema migrations." src="./assets/skills-data-dark.svg#gh-dark-mode-only" width="49%" />
+<img alt="Tooling and delivery skills from ubuntu api and ubuntu ui: Vitest, Biome, ESLint, Prettier, GitHub Actions, Cloudflare Workers." src="./assets/skills-tooling-delivery-light.svg#gh-light-mode-only" width="49%" />
+<img alt="Tooling and delivery skills from ubuntu api and ubuntu ui: Vitest, Biome, ESLint, Prettier, GitHub Actions, Cloudflare Workers." src="./assets/skills-tooling-delivery-dark.svg#gh-dark-mode-only" width="49%" />
 </p>
 
 <br />
