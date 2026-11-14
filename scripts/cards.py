@@ -1,7 +1,11 @@
-"""Generates the profile's card images (light + dark). Edit CONFIG, then run:
+"""Generates the profile's card images. Every card uses one dark, theme-neutral design (constitution II).
+Edit CONFIG, then run:
     python3 scripts/cards.py
+Icons come from scripts/icons.json (see scripts/ICONS.md).
 """
-import math, os
+import json, math, os
+
+ICONS = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), "icons.json"), encoding="utf-8"))
 
 CONFIG = {
     "projects": [
@@ -17,13 +21,17 @@ CONFIG = {
     # specs/001-resume-skills-section/research.md. One badge, one category.
     "skills": [
         {"slug": "languages-frontend", "title": "Languages & Frontend", "projects": ["ubuntu api", "ubuntu ui"],
-         "badges": ["TypeScript", "React", "TanStack Start", "Tailwind CSS", "shadcn/ui", "Vite"]},
+         "badges": [("TypeScript", "typescript"), ("React", "react"), ("TanStack Start", "tanstack"),
+                    ("Tailwind CSS", "tailwindcss"), ("shadcn/ui", "shadcnui"), ("Vite", "vite")]},
         {"slug": "backend", "title": "Backend", "projects": ["ubuntu api", "ubuntu ui"],
-         "badges": ["Node.js", "Hono", "OpenAPI", "Swagger UI", "Zod", "openapi-fetch"]},
+         "badges": [("Node.js", "nodedotjs"), ("Hono", "hono"), ("OpenAPI", "openapiinitiative"),
+                    ("Swagger UI", "swagger"), ("Zod", "zod"), ("openapi-fetch", "fetch")]},
         {"slug": "data", "title": "Data", "projects": ["ubuntu api", "ubuntu ui"],
-         "badges": ["PostgreSQL", "Neon", "Drizzle ORM", "Schema migrations"]},
+         "badges": [("PostgreSQL", "postgresql"), ("Neon", "neon"), ("Drizzle ORM", "drizzle"),
+                    ("Schema migrations", "migrations")]},
         {"slug": "tooling-delivery", "title": "Tooling & Delivery", "projects": ["ubuntu api", "ubuntu ui"],
-         "badges": ["Vitest", "Biome", "ESLint", "Prettier", "GitHub Actions", "Cloudflare Workers"]},
+         "badges": [("Vitest", "vitest"), ("Biome", "biome"), ("ESLint", "eslint"), ("Prettier", "prettier"),
+                    ("GitHub Actions", "githubactions"), ("Cloudflare Workers", "cloudflareworkers")]},
     ],
     "principles": [
         ("Types end to end", ["Strict TypeScript and schema", "validation at every boundary."]),
@@ -34,10 +42,8 @@ CONFIG = {
 }
 
 THEMES = {
-    "light": dict(card="#FFFFFF", border="#E5E5EA", text="#1D1D1F", sub="#6E6E73",
-                  pill="#F5F5F7", pilltext="#1D1D1F", accent="#0071E3", shadow="0.08"),
-    "dark":  dict(card="#1C1C1E", border="#3A3A3C", text="#F5F5F7", sub="#A1A1A6",
-                  pill="#2C2C2E", pilltext="#F5F5F7", accent="#2997FF", shadow="0.0"),
+    "dark": dict(card="#1C1C1E", border="#3A3A3C", text="#F5F5F7", sub="#A1A1A6",
+                 pill="#2C2C2E", pilltext="#F5F5F7", accent="#2997FF", shadow="0.0"),
 }
 FONT = '-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Segoe UI",Helvetica,Arial,sans-serif'
 
@@ -88,11 +94,11 @@ def badge_rows(items, size=14):
     """Greedy wrap of pill badges into rows that fit inside the card."""
     rows, cur, cx = [], [], 0
     limit = SKILL_W - 2 * SKILL_PAD
-    for it in items:
-        pw = tw(it, size) + 28
+    for name, icon in items:
+        pw = tw(name, size) + 28 + 24  # 24px for the 16px icon and its gap
         if cur and cx + pw > limit:
             rows.append(cur); cur, cx = [], 0
-        cur.append((it, pw)); cx += pw + 10
+        cur.append((name, icon, pw)); cx += pw + 10
     if cur: rows.append(cur)
     return rows
 
@@ -110,12 +116,13 @@ def skills_card(cat, t, rows_total):
     y = 160
     for row in badge_rows(cat["badges"]):
         x = SKILL_PAD
-        for name, pw in row:
+        for name, icon, pw in row:
             b += f'<rect x="{x:.0f}" y="{y}" width="{pw:.0f}" height="32" rx="16" fill="{t["pill"]}"/>'
-            b += f'<text class="pill" x="{x+pw/2:.0f}" y="{y+21}" text-anchor="middle">{esc(name)}</text>'
+            b += f'<path d="{ICONS[icon]["path"]}" transform="translate({x+14:.0f},{y+8}) scale(0.667)" fill="{t["pilltext"]}"/>'
+            b += f'<text class="pill" x="{x+14+16+8:.0f}" y="{y+21}">{esc(name)}</text>'
             x += pw + 10
         y += 42
-    label = f'{cat["title"]} skills from {" and ".join(cat["projects"])}: ' + ", ".join(cat["badges"])
+    label = f'{cat["title"]} skills from {" and ".join(cat["projects"])}: ' + ", ".join(n for n, _ in cat["badges"])
     return frame(w, h, t, b, label)
 
 def principles(items, t):
@@ -132,12 +139,11 @@ def principles(items, t):
     return frame(w, h, t, b, "How I work: " + "; ".join(f"{a}. {' '.join(l)}" for a, l in items))
 
 root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets")
-for name, t in THEMES.items():
-    if name == "dark":  # linked project cards are one theme-neutral image (constitution II)
-        for p in CONFIG["projects"]:
-            open(f"{root}/project-{p['slug']}-dark.svg", "w").write(project(p, t))
-    rows_total = max(len(badge_rows(c["badges"])) for c in CONFIG["skills"])
-    for c in CONFIG["skills"]:
-        open(f"{root}/skills-{c['slug']}-{name}.svg", "w").write(skills_card(c, t, rows_total))
-    open(f"{root}/principles-{name}.svg", "w").write(principles(CONFIG["principles"], t))
+t = THEMES["dark"]
+for p in CONFIG["projects"]:
+    open(f"{root}/project-{p['slug']}-dark.svg", "w").write(project(p, t))
+rows_total = max(len(badge_rows(c["badges"])) for c in CONFIG["skills"])
+for c in CONFIG["skills"]:
+    open(f"{root}/skills-{c['slug']}-dark.svg", "w").write(skills_card(c, t, rows_total))
+open(f"{root}/principles-dark.svg", "w").write(principles(CONFIG["principles"], t))
 print("cards written to assets/")
