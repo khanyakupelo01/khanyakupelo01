@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="440" viewBox="0 0 1200 440" role="img" aria-label="How I work: Types end to end. Strict TypeScript and schema validation at every boundary.; Data you can audit. Append-only records and explicit corrections. No silent changes.; Contracts first. Specs and OpenAPI before code, so teams build in parallel.; Secure by default. Least-privilege roles, minimal personal data, clean logs.">
+<defs><filter id="s" x="-10%" y="-10%" width="120%" height="140%"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#000" flood-opacity="0.0"/></filter></defs>
+<style>
+  text { font-family: -apple-system,BlinkMacSystemFont,"SF Pro Text","Inter","Segoe UI",Helvetica,Arial,sans-serif; }
+  .title { font-size: 26px; font-weight: 600; letter-spacing: -0.4px; fill: #F5F5F7; }
+  .h { font-size: 21px; font-weight: 600; letter-spacing: -0.3px; fill: #F5F5F7; }
+  .sub { font-size: 17px; fill: #A1A1A6; }
+  .eyebrow { font-size: 13px; font-weight: 600; letter-spacing: 1.6px; fill: #A1A1A6; }
+  .pill { font-size: 14px; font-weight: 500; fill: #F5F5F7; }
+</style>
+<rect x="12" y="8" width="1176" height="416" rx="22" fill="#1C1C1E" stroke="#2C2C2E" filter="url(#s)"/>
+<text class="eyebrow" x="52" y="66">HOW I WORK</text><rect x="52" y="96" width="532" height="130" rx="16" fill="#2C2C2E"/><circle cx="82" cy="134" r="6" fill="#2997FF"/><text class="h" x="100" y="141">Types end to end</text><text class="sub" x="82" y="176">Strict TypeScript and schema</text><text class="sub" x="82" y="199">validation at every boundary.</text><rect x="616" y="96" width="532" height="130" rx="16" fill="#2C2C2E"/><circle cx="646" cy="134" r="6" fill="#2997FF"/><text class="h" x="664" y="141">Data you can audit</text><text class="sub" x="646" y="176">Append-only records and explicit</text><text class="sub" x="646" y="199">corrections. No silent changes.</text><rect x="52" y="250" width="532" height="130" rx="16" fill="#2C2C2E"/><circle cx="82" cy="288" r="6" fill="#2997FF"/><text class="h" x="100" y="295">Contracts first</text><text class="sub" x="82" y="330">Specs and OpenAPI before code,</text><text class="sub" x="82" y="353">so teams build in parallel.</text><rect x="616" y="250" width="532" height="130" rx="16" fill="#2C2C2E"/><circle cx="646" cy="288" r="6" fill="#2997FF"/><text class="h" x="664" y="295">Secure by default</text><text class="sub" x="646" y="330">Least-privilege roles, minimal</text><text class="sub" x="646" y="353">personal data, clean logs.</text>
+</svg>
