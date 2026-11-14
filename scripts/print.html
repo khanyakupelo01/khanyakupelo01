@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>Khanya Kupelo - Profile</title>
+<!-- Print page for assets/khanya-profile.pdf. Pure HTML and CSS (no JavaScript).
+     Built by scripts/make_pdf.py, which fills {{INTRO}} from README.md and {{ASSETS}} with the assets path. -->
+<style>
+  @page { size: A4; margin: 12mm; }
+  html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", "Segoe UI", Helvetica, Arial, sans-serif; color: #1D1D1F; background: #fff; font-size: 11pt; line-height: 1.5; }
+  img { display: block; }
+  .header { width: 72%; margin: -4mm 0 0 -2mm; }
+  p.intro { margin: 3mm 0 0; font-size: 11.5pt; }
+  h2 { font-size: 15pt; letter-spacing: -0.2px; margin: 6mm 0 2.5mm; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3mm; }
+  .grid img { width: 100%; }
+  .links { margin: 3mm 0 0; padding: 0; list-style: none; font-size: 10pt; }
+  .links li { margin: 0 0 1mm; }
+  .links b { display: inline-block; min-width: 38mm; font-weight: 600; }
+  a { color: #0071E3; text-decoration: none; }
+  .wide { width: 100%; }
+  .avoid { break-inside: avoid; }
+  .foot { text-align: center; color: #6E6E73; font-size: 9.5pt; margin-top: 9mm; }
+</style></head><body>
+<img class="header" src="{{ASSETS}}/header-light.svg" alt="Khanya. Senior Software Engineer.">
+<p class="intro">{{INTRO}}</p>
+
+<div class="avoid">
+<h2>Currently building</h2>
+<div class="grid">
+  <a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/"><img src="{{ASSETS}}/project-api.svg" alt="ubuntu api"></a>
+  <a href="https://ubuntu.sibulelekupelo.workers.dev/"><img src="{{ASSETS}}/project-ubuntu.svg" alt="ubuntu ui"></a>
+</div>
+<ul class="links">
+  <li><b>ubuntu api live</b> <a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/">br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech</a></li>
+  <li><b>ubuntu ui live</b> <a href="https://ubuntu.sibulelekupelo.workers.dev/">ubuntu.sibulelekupelo.workers.dev</a></li>
+  <li><b>ubuntu api on GitHub</b> <a href="https://github.com/khanyakupelo01/api">github.com/khanyakupelo01/api</a></li>
+  <li><b>ubuntu ui on GitHub</b> <a href="https://github.com/khanyakupelo01/ubuntu">github.com/khanyakupelo01/ubuntu</a></li>
+</ul>
+</div>
+
+<div class="avoid">
+<h2>Skills</h2>
+<div class="grid">
+  <img src="{{ASSETS}}/skills-languages-frontend.svg" alt="Languages and frontend skills">
+  <img src="{{ASSETS}}/skills-backend.svg" alt="Backend skills">
+  <img src="{{ASSETS}}/skills-data.svg" alt="Data skills">
+  <img src="{{ASSETS}}/skills-tooling-delivery.svg" alt="Tooling and delivery skills">
+</div>
+</div>
+
+<div class="avoid">
+<h2>How I work</h2>
+<img class="wide" src="{{ASSETS}}/principles.svg" alt="How I work">
+</div>
+
+<p class="foot">Based in South Africa · Open to senior and staff engineering roles<br><a href="https://github.com/khanyakupelo01">github.com/khanyakupelo01</a></p>
+</body></html>

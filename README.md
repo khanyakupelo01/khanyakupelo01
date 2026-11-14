@@ -4,6 +4,8 @@
 I'm a senior software engineer focused on backend systems: API design, data modelling and services that stay correct under real-world load.
 I care about type safety, auditable data and clean interfaces, and about shipping work other engineers enjoy maintaining.
 
+<p><a href="./assets/khanya-profile.pdf">Download this profile as a PDF</a></p>
+
 <br />
 
 ### Currently building
