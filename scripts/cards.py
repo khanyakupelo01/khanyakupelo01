@@ -141,9 +141,9 @@ def principles(items, t):
 root = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "assets")
 t = THEMES["dark"]
 for p in CONFIG["projects"]:
-    open(f"{root}/project-{p['slug']}-dark.svg", "w").write(project(p, t))
+    open(f"{root}/project-{p['slug']}.svg", "w").write(project(p, t))
 rows_total = max(len(badge_rows(c["badges"])) for c in CONFIG["skills"])
 for c in CONFIG["skills"]:
-    open(f"{root}/skills-{c['slug']}-dark.svg", "w").write(skills_card(c, t, rows_total))
-open(f"{root}/principles-dark.svg", "w").write(principles(CONFIG["principles"], t))
+    open(f"{root}/skills-{c['slug']}.svg", "w").write(skills_card(c, t, rows_total))
+open(f"{root}/principles.svg", "w").write(principles(CONFIG["principles"], t))
 print("cards written to assets/")

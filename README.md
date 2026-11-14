@@ -9,8 +9,8 @@ I care about type safety, auditable data and clean interfaces, and about shippin
 ### Currently building
 
 <p>
-<a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/"><img alt="ubuntu api: Typed REST API with role-based access, Zod validation and OpenAPI docs. Opens the live site." src="./assets/project-api-dark.svg" width="49%" /></a>
-<a href="https://ubuntu.sibulelekupelo.workers.dev/"><img alt="ubuntu ui: Web app for a communal ceremony-support scheme, built on TanStack Start. Opens the live site." src="./assets/project-ubuntu-dark.svg" width="49%" /></a>
+<a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/"><img alt="ubuntu api: Typed REST API with role-based access, Zod validation and OpenAPI docs. Opens the live site." src="./assets/project-api.svg" width="49%" /></a>
+<a href="https://ubuntu.sibulelekupelo.workers.dev/"><img alt="ubuntu ui: Web app for a communal ceremony-support scheme, built on TanStack Start. Opens the live site." src="./assets/project-ubuntu.svg" width="49%" /></a>
 </p>
 
 <p>
@@ -27,15 +27,15 @@ I care about type safety, auditable data and clean interfaces, and about shippin
 ### Skills
 
 <p>
-<img alt="Languages and frontend skills from ubuntu api and ubuntu ui: TypeScript, React, TanStack Start, Tailwind CSS, shadcn/ui, Vite." src="./assets/skills-languages-frontend-dark.svg" width="49%" />
-<img alt="Backend skills from ubuntu api and ubuntu ui: Node.js, Hono, OpenAPI, Swagger UI, Zod, openapi-fetch." src="./assets/skills-backend-dark.svg" width="49%" />
-<img alt="Data skills from ubuntu api and ubuntu ui: PostgreSQL, Neon, Drizzle ORM, schema migrations." src="./assets/skills-data-dark.svg" width="49%" />
-<img alt="Tooling and delivery skills from ubuntu api and ubuntu ui: Vitest, Biome, ESLint, Prettier, GitHub Actions, Cloudflare Workers." src="./assets/skills-tooling-delivery-dark.svg" width="49%" />
+<img alt="Languages and frontend skills from ubuntu api and ubuntu ui: TypeScript, React, TanStack Start, Tailwind CSS, shadcn/ui, Vite." src="./assets/skills-languages-frontend.svg" width="49%" />
+<img alt="Backend skills from ubuntu api and ubuntu ui: Node.js, Hono, OpenAPI, Swagger UI, Zod, openapi-fetch." src="./assets/skills-backend.svg" width="49%" />
+<img alt="Data skills from ubuntu api and ubuntu ui: PostgreSQL, Neon, Drizzle ORM, schema migrations." src="./assets/skills-data.svg" width="49%" />
+<img alt="Tooling and delivery skills from ubuntu api and ubuntu ui: Vitest, Biome, ESLint, Prettier, GitHub Actions, Cloudflare Workers." src="./assets/skills-tooling-delivery.svg" width="49%" />
 </p>
 
 <br />
 
-<img alt="How I work. Types end to end. Data you can audit. Contracts first. Secure by default." src="./assets/principles-dark.svg" width="100%" />
+<img alt="How I work. Types end to end. Data you can audit. Contracts first. Secure by default." src="./assets/principles.svg" width="100%" />
 
 <br /><br />
 
