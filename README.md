@@ -13,9 +13,9 @@ I care about type safety, auditable data and clean interfaces, and about shippin
 <a href="https://ubuntu.sibulelekupelo.workers.dev/"><img alt="ubuntu: Web app for a communal ceremony-support scheme, built on TanStack Start. Opens the live site." src="./assets/project-ubuntu-dark.svg" width="49%" /></a>
 </p>
 
-<p>
+<!-- <p>
   <a href="https://br-mute-poetry-bewqw5un-todos.compute.c-9.us-east-2.aws.neon.tech/">api live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://ubuntu.sibulelekupelo.workers.dev/">ubuntu live</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/api">api on GitHub</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="https://github.com/khanyakupelo01/ubuntu">ubuntu on GitHub</a>
-</p>
+</p> -->
 
 <p align="right">
   <a href="https://github.com/khanyakupelo01/api/actions/workflows/ci.yml"><img src="https://github.com/khanyakupelo01/api/actions/workflows/ci.yml/badge.svg" alt="api CI status" /></a>
